@@ -1,0 +1,24 @@
+body {
+  font-family: 'Montserrat', 'sans-serif';
+  background: #424242;
+  color: #f2f4f8;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+#gallery__item {
+  display: block;
+  border-radius: 15px;
+  margin: 7px;
+  border: 15;
+  border-style:double;
+  border-color: indianred;
+  max-width: calc(50% - 20px);
+  box-shadow: 0 14px 26px green;
+}
